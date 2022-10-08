@@ -2,4 +2,13 @@
 
 Collection of smaller p5js.org projects
 
-<img src="mandelbrot/mandelbrot.png" align="right" width="30%">
+## Mandelbrot set
+
+<img src="mandelbrot/mandelbrot.png" width="32%">
+<img src="mandelbrot/mandelbrot7.png" width="32%">
+<img src="mandelbrot/mandelbrot5.png" width="32%">
+
+## Generative art
+
+## Disruption
+

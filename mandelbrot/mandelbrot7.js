@@ -1,5 +1,5 @@
-// Test on 2022-10-08
-// https://editor.p5js.org/kreier/sketches/N-qShiZFP
+// Test on 2022-10-08 mandelbrot7
+// https://editor.p5js.org/kreier/sketches/LwK3EW-Os
 
 const canvas_width = 600;
 const canvas_height = 400;
@@ -8,13 +8,17 @@ const canvas_height = 400;
 // A different range will allow us to "zoom" in or out on the fractal
 
 // Start overview values:
-const w = 3;
-const h = (w * canvas_height) / canvas_width;
-const xmin = -w/1.3;
-const ymin = -h/2;
+// const w = 3;
+// const h = (w * canvas_height) / canvas_width;
+// const xmin = -w/1.3;
+// const ymin = -h/2;
 
 
 // zoom 1
+const w = 1;
+const h = (w * canvas_height) / canvas_width;
+const xmin = -1.7;
+const ymin = -0.5;
 
 // zoom 2
 // const w = 0.5;
@@ -120,7 +124,7 @@ function draw() {
   if (j > height) {
     j = 0;
     y = ymin;
-    hue_offset = int(random(360));
+    hue_offset = int(random(359));
     print(hue_offset);
   }
   updatePixels();

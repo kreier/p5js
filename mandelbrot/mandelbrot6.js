@@ -7,20 +7,13 @@ const canvas_height = 400;
 // Establish a range of values on the complex plane
 // A different range will allow us to "zoom" in or out on the fractal
 
-// Start overview values:
+// It all starts with the width, try higher or lower values
 const w = 3;
 const h = (w * canvas_height) / canvas_width;
+
+// Start at negative half the width and height
 const xmin = -w/1.3;
 const ymin = -h/2;
-
-
-// zoom 1
-
-// zoom 2
-// const w = 0.5;
-// const h = (w * canvas_height) / canvas_width;
-// const xmin = -1.45;
-// const ymin = -0.5;
 
 // Maximum number of iterations for each point on the complex plane
 const maxiterations = 100;
@@ -38,7 +31,7 @@ let y = ymin;
 let j = 0;
 
 let hue_offset = 241;
-// hue_offset = Math.round(Math.random() * 360);
+// let hue_offset = Math.int(Math.random(360));
 
 function HSLToRGB(h,s,l) {
   s /= 100;
@@ -120,7 +113,7 @@ function draw() {
   if (j > height) {
     j = 0;
     y = ymin;
-    hue_offset = int(random(360));
+    // hue_offset = int(random(360));
     print(hue_offset);
   }
   updatePixels();

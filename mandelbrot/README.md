@@ -2,7 +2,9 @@
 
 Some modifications of the template on p5js led to this realtime color Mandelbrot set.
 
-![mandelbrot](mandelbrot.png)
+<img src="mandelbrot.png" width="32%">
+<img src="mandelbrot7.png" width="32%">
+<img src="mandelbrot5.png" width="32%">
 
 This is the code:
 
@@ -63,3 +65,5 @@ function draw() {
   updatePixels();
 }
 ```
+
+![mandelbrot](mandelbrot.png)
