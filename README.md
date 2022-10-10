@@ -10,7 +10,10 @@ See [here on p5js.org](https://editor.p5js.org/kreier/sketches/LwK3EW-Os) or in 
 
 ## [Disruption](disruption)
 
-<img src="disruption/preview.png" width="32%">
+See [here on p5js.org](https://editor.p5js.org/kreier/sketches/7Uwz1IDW6) or in the [sourcecode](disruption) here on GitHub.
+
+<img src="disruption/preview.png" width="32%"> <img src="disruption/disruption2.png" width="32%">
+
 
 ## [Circle K](circle_k)
 
